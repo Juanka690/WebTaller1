@@ -1,0 +1,66 @@
+{
+    "validas": [
+        {
+            "id_reserva": 1,
+            "id_sala": 101,
+            "id_usuario": 9001,
+            "fecha": "2026-03-10",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "10:00:00",
+            "personas": 25,
+            "estado": "pendiente"
+        },
+        {
+            "id_reserva": 2,
+            "id_sala": 202,
+            "id_usuario": 9002,
+            "fecha": "2026-03-11",
+            "hora_inicio": "14:00:00",
+            "hora_fin": "16:30:00",
+            "personas": 10,
+            "estado": "confirmada"
+        }
+    ],
+    "invalidas": [
+        {
+            "id_reserva": 3,
+            "id_sala": 101,
+            "id_usuario": 9003,
+            "fecha": "2026-03-12",
+            "hora_inicio": "10:00:00",
+            "hora_fin": "09:00:00",
+            "personas": 5,
+            "estado": "pendiente"
+        },
+        {
+            "id_reserva": 4,
+            "id_sala": 101,
+            "id_usuario": 9004,
+            "fecha": "2026-99-99",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:00:00",
+            "personas": 5,
+            "estado": "pendiente"
+        },
+        {
+            "id_reserva": 5,
+            "id_sala": 101,
+            "id_usuario": 9005,
+            "fecha": "2026-03-13",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:00:00",
+            "personas": 0,
+            "estado": "confirmada"
+        },
+        {
+            "id_reserva": 6,
+            "id_sala": 101,
+            "id_usuario": 9006,
+            "fecha": "2026-03-13",
+            "hora_inicio": "08:00:00",
+            "hora_fin": "09:00:00",
+            "personas": 2,
+            "estado": "otro_estado"
+        }
+    ]
+}
