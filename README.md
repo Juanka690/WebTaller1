@@ -10,8 +10,8 @@ El sistema permite **crear reservas**, **listar todas**, **consultar por ID** y 
 
 ## Integrantes
 
-- **Juan Camilo Cardona Sánchez**
-- **Miguel Castaño Moya**
+- **Juan Camilo Cardona Sánchez** - 1023630690
+- **Miguel Castaño Moya** - 1042607160
 
 ---
 
