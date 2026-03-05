@@ -1,5 +1,5 @@
 {
-    "validas": [
+    "reservas": [
         {
             "id_reserva": 1,
             "id_sala": 101,
@@ -19,9 +19,7 @@
             "hora_fin": "16:30:00",
             "personas": 10,
             "estado": "confirmada"
-        }
-    ],
-    "invalidas": [
+        },
         {
             "id_reserva": 3,
             "id_sala": 101,
@@ -61,6 +59,16 @@
             "hora_fin": "09:00:00",
             "personas": 2,
             "estado": "otro_estado"
+        },
+        {
+            "id_reserva": 1,
+            "id_sala": 303,
+            "id_usuario": 9999,
+            "fecha": "2026-03-20",
+            "hora_inicio": "09:00:00",
+            "hora_fin": "10:00:00",
+            "personas": 3,
+            "estado": "pendiente"
         }
     ]
 }
